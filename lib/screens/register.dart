@@ -203,31 +203,3 @@ class RegisterScreen extends StatelessWidget {
 }
 
 
-
-// CustomScrollView(
-//         slivers: [
-//           SliverAppBar(
-//             leading: Container(
-//               padding: EdgeInsets.only(left: 6.0),
-//               margin: const EdgeInsets.only(left: 12.0, top: 12.0),
-//               decoration: BoxDecoration(
-//                   color: Colors.black.withOpacity(0.65),
-//                   borderRadius: BorderRadius.circular(30)),
-//               child: InkWell(
-//                   borderRadius: BorderRadius.circular(20),
-//                   onTap: () {},
-//                   child: Icon(Icons.arrow_back_ios)),
-//             ),
-//             pinned: true,
-//             snap: true,
-//             floating: true,
-//             expandedHeight: 200.0,
-//             backgroundColor: Colors.white,
-//             flexibleSpace: FlexibleSpaceBar(
-//               title: Text('SliverAppBar'),
-//               background: Image.asset('assets/images/login.png'),
-//             ),
-//           ),
-//           // Text('Welcome to fashion Daily')
-//         ],
-//       ),
